@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progando showgif Probando carga general 1`] = `
+<div
+  className="card animate__animated animate__pulse"
+>
+  <p
+    className="animate__animated animate__flash animate__infinite"
+  >
+    Cargando...
+  </p>
+  <img
+    onLoad={[Function]}
+    src="https://media1.giphy.com/media/qYxZiiuxQIiexrKqj3/giphy.gif?cid=3a8a57599peodb6t6zyy2238q7w80r88zh1oweg5udlwg4du&rid=giphy.gif&ct=g"
+  />
+  <p
+    className="title"
+  >
+    Imagen de deportes
+  </p>
+</div>
+`;

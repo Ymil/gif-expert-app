@@ -14,14 +14,14 @@ export const ShowCategory = ({category}) => {
             }
             <div className="card-grid">
                 { gifs.map(
-                    (gif) => <ShowGif {...gif} />
+                    (gif) => <ShowGif {...gif} key={gif.id} />
                 )}
             </div>
         </>
     )
 }
 
-ShowCategory.propType = {
+ShowCategory.propTypes = {
     category: PropTypes.string.isRequired
 }
 
